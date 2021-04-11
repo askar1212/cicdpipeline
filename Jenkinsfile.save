@@ -1,0 +1,16 @@
+Jenkinsfile (Declarative Pipeline)
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps {
+             bat 'mvn test' stage('build') {
+            steps {
+             bat 'mvn test'
+            }
+        }
+
+            }
+        }
+    }
+

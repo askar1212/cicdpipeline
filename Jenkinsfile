@@ -1,4 +1,4 @@
-kinsfile (Declarative Pipeline)
+
 pipeline {
     agent { docker { image 'ruby' } }
     stages {
