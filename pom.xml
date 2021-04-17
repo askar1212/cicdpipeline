@@ -23,7 +23,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   </dependencies>
    <distributionManagement>
           <snapshotRepository>
-                  <id>CICD_pipeline</id>
+		  <id>CICD_pipeline</id>
+		  <name>CICD_pipeline</name>
                   <url>http://127.0.0.1:8081/repository/CICD_pipeline/</url>
           </snapshotRepository>
   </distributionManagement>
